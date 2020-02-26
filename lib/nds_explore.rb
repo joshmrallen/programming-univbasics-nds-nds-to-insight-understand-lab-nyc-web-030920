@@ -10,5 +10,9 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
+  #print a while loop - database is an AofHofH
+  index = 0
+  while 
+  
   
 end
