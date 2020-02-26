@@ -11,7 +11,8 @@ end
 
 def print_first_directors_movie_titles
   #use a while loop - database is an AofHofAofH
-  #first director is spielberg -- print all movies in index = 0, :movies, and use movie_index
+  #first director is spielberg -- print all movies with index = 0, :movies, movie_index, :title
+  #use movie_index to loop through the movies hash for the director
   
   index = 0
   movie_index = 0
