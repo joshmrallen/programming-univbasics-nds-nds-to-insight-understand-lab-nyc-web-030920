@@ -12,7 +12,7 @@ end
 def print_first_directors_movie_titles
   #print a while loop - database is an AofHofH
   index = 0
-  while 
+  while index < directors_database.count
   
   
 end
