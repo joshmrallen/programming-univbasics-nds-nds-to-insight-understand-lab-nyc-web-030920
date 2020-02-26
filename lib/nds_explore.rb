@@ -10,10 +10,14 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  #print a while loop - database is an AofHofAofH
+  #use a while loop - database is an AofHofAofH
+  #first director is spielberg -- print all movies in index = 0, :movies, and use movie_index
+  
   index = 0
-  while index < directors_database.count do
-    pp 
+  movie_index = 0
+  while movie_index < directors_database[0][:movies].count do
+    pp directors_database[0][:movies][movie_index]
+    movie_index += 1
   end
   
   
