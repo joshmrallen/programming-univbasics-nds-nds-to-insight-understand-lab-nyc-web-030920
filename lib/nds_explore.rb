@@ -10,9 +10,11 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  #print a while loop - database is an AofHofH
+  #print a while loop - database is an AofHofAofH
   index = 0
-  while index < directors_database.count
+  while index < directors_database.count do
+    pp 
+  end
   
   
 end
